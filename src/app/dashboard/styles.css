@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f3f4f8, #f9fbff);
+  color: #1f2937;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: #1e1b4b;
+  color: white;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar button:hover {
+  color: #a3bffa;
+  transform: translateX(3px);
+}
+
+.logout {
+  margin-top: auto;
+  color: #ffbaba;
+}
+
+.main {
+  margin-left: 220px;
+  padding: 40px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9fbfd;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #1e1b4b;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+}
+
+.header h1::before {
+  content: "🎓";
+  font-size: 30px;
+}
+
+.header p {
+  font-size: 16px;
+  margin-top: 8px;
+  color: #374151;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+#courseFlow {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #f3f4f8, #f9fbff);
+  color: #1f2937;
+}
+
+.dropdown-container {
+  margin: 1rem 0;
+}
+
+.dropdown-label {
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+.dropdown {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-width: 200px;
+}
+
+.submenu {
+  margin-left: 10px;
+  padding: 6px;
+}
+
+.submenu select {
+  width: 90%;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.compare span {
+  margin: 0 5px;
+  font-weight: bold;
+}

@@ -1,0 +1,131 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.login-wrapper {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.login-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.login-image {
+  height: 100vh; /* 💡 Force full height */
+  width: 100%;    /* 💡 Stretch to its container */
+  flex: 0 0 60%;
+  background: url('/bg.png') center center / cover no-repeat;
+  filter: brightness(0.8);
+  
+  display: block;
+}
+
+.login-form {
+  flex: 1;
+  background-color: #f9f7ea;
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.login-form h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.login-form p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.login-form a {
+  text-decoration: underline;
+  color: #111;
+  font-weight: 500;
+}
+
+
+
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.auth-form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.auth-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.auth-form button {
+  margin-top: 10px;
+  background-color: #1e1b4b;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.auth-form button:hover {
+  background-color: #312e81;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: white;
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  /* transition: background 0.2s; */
+}
+
+.google-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.google-btn img {
+  width: 24px;
+  height: 24px;
+}
